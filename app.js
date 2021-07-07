@@ -1,4 +1,6 @@
-const key = "563492ad6f9170000100000163eb6a24220b437cbd784b1cff6865cd";
+import { apiKey } from "./api.js";
+
+const key = apiKey;
 const gallery = document.querySelector(".gallery");
 const searchInput = document.querySelector(".search-input");
 const searchForm = document.querySelector("#search-form");
